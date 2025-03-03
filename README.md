@@ -37,7 +37,7 @@ tokenizer.save_pretrained("./<dir/location>")
 2. Create a new model repository
 3. Upload the `<dir/location>` directory
 
-## Step 3: Convert and Merge to GGUF
+## Step 3: Convert to GGUF
 Obtain GGUF versions for both base model and LoRA adapter from HF Spaces:
 
 - Base Model: `https://huggingface.co/spaces/ggml-org/gguf-my-repo`
