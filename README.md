@@ -1,5 +1,13 @@
 # Converting a LoRA Model to GGUF Format for Ollama
 
+1️⃣ Load & Save LoRA Model
+2️⃣ Upload to Hugging Face
+3️⃣ Download GGUF Files (Base Model & LoRA Adapter)
+4️⃣ Compile llama.cpp (Optional: With GPU support)
+5️⃣ Merge Base Model & LoRA Adapter into GGUF
+6️⃣ Create Modelfile for Ollama
+7️⃣ Import into Ollama & Run Inference
+
 ## Overview
 This guide walks through the process of converting a LoRA fine-tuned model into GGUF format for use with Ollama. The process involves:
 1. Loading and saving the model and tokenizer
