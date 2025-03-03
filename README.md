@@ -41,7 +41,7 @@ tokenizer.save_pretrained("./<dir/location>")
 Obtain GGUF versions for both base model and LoRA adapter from HF Spaces:
 
 - Base Model: `https://huggingface.co/spaces/ggml-org/gguf-my-repo`
-- LoRA Adapter: `https://huggingface.co/spaces/ggml-org/gguf-my-
+- LoRA Adapter: `https://huggingface.co/spaces/ggml-org/gguf-my-lora`
 ## 3. Converting and Merging to GGUF Using llama.cpp
 
 The next step is to obtain GGUF versions for both the base model and your LoRA adapter. In our workflow these files are hosted on HF Spaces. For example, you might have:
